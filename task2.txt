@@ -1,0 +1,13 @@
+mkdir -p /opt/test/Damanskaja
+touch /opt/test/Damanskaja/test.txt
+cat ~/readme.txt > /opt/test/Damanskaja/test.txt
+ps -ef | head -n2 >> /opt/test/Damanskaja/test.txt
+
+mkdir -p /tmp/test2
+touch /tmp/test2/Damanskaja2
+mv /tmp/test2/Damanskaja2 new2.txt
+vi new2.txt
+	G
+	k
+	dG
+	:x
